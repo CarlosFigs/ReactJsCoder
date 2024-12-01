@@ -1,0 +1,34 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar .brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .brand img{
+    height: 100px;
+    width: 100px;
+}
+.navbar .categories{
+    display: flex;
+    list-style: none;
+}
+.navbar .categories li{
+    padding: 0 10px;
+    font-size: 17px;
+}
+.divCart{
+    display: flex;
+    padding: 0 5px;
+    align-items: center;
+    justify-content: center;
+}
+.cartwidget{
+    font-size: 35px;
+}
